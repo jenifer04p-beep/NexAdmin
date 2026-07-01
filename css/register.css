@@ -1,0 +1,113 @@
+body{
+    background:#f4f7fc;
+    font-family:'Poppins',sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+    background:linear-gradient(90deg,#2563eb,#3b82f6);
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:700;
+}
+
+/* Cards */
+
+.card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.35s;
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+
+}
+
+/* Dashboard cards */
+
+.stat-card{
+
+    color:white;
+
+}
+
+.stat-card i{
+
+    font-size:55px;
+
+}
+
+.stat-card h1{
+
+    font-size:50px;
+
+    font-weight:bold;
+
+}
+
+.blue{
+
+    background:linear-gradient(135deg,#2563eb,#60a5fa);
+
+}
+
+.green{
+
+    background:linear-gradient(135deg,#16a34a,#4ade80);
+
+}
+
+.red{
+
+    background:linear-gradient(135deg,#dc2626,#fb7185);
+
+}
+
+/* Buttons */
+
+.btn{
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* Quick Action Card */
+
+.card-header{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
+
+/* Footer */
+
+footer{
+
+    margin-top:50px;
+
+    color:#888;
+
+    text-align:center;
+
+}
