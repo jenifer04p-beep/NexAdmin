@@ -56,5 +56,4 @@ http://localhost/NexAdmin/login.php
 Username: admin
 
 Password: admin123
-admin123
 
